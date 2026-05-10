@@ -1,5 +1,27 @@
 export const projects = [
     {
+        title: 'Chunk, Batch, Masking Data Portfolio',
+        desc: 'A hands-on portfolio mastering data chunking, encryption, quality assurance, and batch processing.',
+        fullDesc: 'This hands-on, notebook-driven portfolio is designed to master the four core skills essential for every data engineer. It provides practical, module-based experience in data chunking, encryption, quality assurance, and batch processing to build robust and compliant data pipelines.',
+        details: 'The project is structured into four practical modules. It covers safe data chunking and memory profiling, maps data encryption and masking strategies to strict GDPR and PCI-DSS compliance, and implements rigorous data quality checks such as schema validation and deduplication. Finally, it explores batch processing optimization by tuning worker counts, batch sizes, and database write throughput.',
+        tags: ['Data Engineering'],
+        technologies: ['Python', 'SQL'],
+        image: '/images/chunk.png',
+        gallery: ['/images/chunk.png'],
+        link: '#'
+    },
+    {
+        title: 'PoC AI-Invoice-Parser',
+        desc: 'An intelligent automation tool to streamline financial data entry using Gemini 2.0 Flash.',
+        fullDesc: 'PoC AI-Invoice-Parser is an intelligent automation tool designed to streamline financial data entry. By leveraging Google\'s Gemini 2.0 Flash multimodal capabilities, this app effectively transforms unstructured invoice and receipt images into structured, analytics-ready Excel data in seconds.',
+        details: 'The system processes various unstructured financial documents regardless of their layout. Employing the Google Gemini 2.0 Flash model via Python facilitates the accurate extraction and categorization of expenses, which are subsequently structured using Pandas and presented within an interactive Streamlit dashboard for user review and direct Excel export.',
+        tags: ['Artificial Intelligence', 'Web App', 'Finance'],
+        technologies: ['Python', 'Streamlit', 'Google Gemini', 'Pandas', 'OpenPyXL'],
+        image: '/images/AI-Invoice-Parser.png',
+        gallery: ['/images/AI-Invoice-Parser.png'],
+        link: '#'
+    },
+    {
         title: 'Padtani App (Bangkit Capstone Project)',
         desc: 'An app to help rice farmer to increase their farm using machine learning',
         fullDesc: 'Padtani is a Bangkit Capstone project aimed at enhancing rice quality in Indonesia, a vital sector for the country\'s economy. By harnessing cutting-edge machine learning through TensorFlow, this app effectively identifies rice diseases and analyzes leaf color, providing farmers with precise fertilization recommendations for improved crop yield and sustainability.',
@@ -40,20 +62,6 @@ export const projects = [
         link: '#'
     },
     {
-        title: 'Business Analytics Singapore Land',
-        desc: 'Transform and Load Data using Excel (Preprocessing) to PowerBI.',
-        tags: ['PowerBI', 'Excel', 'Data Analytics'],
-        image: '/images/BIAnalysis.png',
-        link: '#'
-    },
-    {
-        title: 'Product Visualization airbnb',
-        desc: 'Simple dashboard visualization using Tableau',
-        tags: ['Tableau', 'Data Visualization', 'Analytics'],
-        image: '/images/tableau.png',
-        link: '#'
-    },
-    {
         title: 'Covid-19 Mask Detection',
         desc: 'An image processing method for mask detection using python',
         fullDesc: 'The paper titled \'Enhancing Mask Compliance During the COVID-19 Pandemic: Utilizing Image Segmentation\' delves into the crucial aspect of encouraging mask-wearing to mitigate the spread of COVID-19. Amidst the pandemic\'s devastating impact, adherence to health protocols, such as wearing masks outdoors, remains paramount.',
@@ -72,26 +80,5 @@ export const projects = [
         image: '/images/walmart.png',
         gallery: ['/images/walmart.png'],
         link: 'none'
-    },
-    {
-        title: 'Bike Sales Dashboard',
-        desc: 'Dashboard visualization using Excel',
-        tags: ['Excel', 'Data Visualization', 'Analytics'],
-        image: '/images/Excel.png',
-        link: '#'
-    },
-    {
-        title: 'Market Analysis Dashboard',
-        desc: 'Dashboard visualization using Excel',
-        tags: ['Excel', 'Business Intelligence', 'Analytics'],
-        image: '/images/MarketAFront.png',
-        link: '#'
-    },
-    {
-        title: 'Customer Bank Analysis',
-        desc: 'Dashboard visualization using BI',
-        tags: ['Business Intelligence', 'Data Analytics', 'Finance'],
-        image: '/images/BankFront.png',
-        link: '#'
-    },
+    }
 ];

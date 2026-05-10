@@ -22,7 +22,7 @@ const Projects = () => {
                     viewport={{ once: true }}
                     style={{ fontSize: '2.5rem', marginBottom: '3rem', textAlign: 'center' }}
                 >
-                    Portfolio
+                    Projects
                 </motion.h2>
 
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
@@ -79,3 +79,4 @@ const Projects = () => {
 };
 
 export default Projects;
+

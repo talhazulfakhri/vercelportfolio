@@ -1,26 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FileDown, Github, Instagram, Linkedin } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 
 const Contact = () => {
     const socialLinks = [
-        {
-            name: 'CV',
-            icon: FileDown,
-            url: 'https://drive.google.com/file/d/1Wn2rL8WHMxuWgzI_OeWwcdI_0HUwbo14/view?usp=sharing',
-            label: 'Download CV'
-        },
         {
             name: 'GitHub',
             icon: Github,
             url: 'https://www.github.com/talhazulfakhri',
             label: 'GitHub Profile'
-        },
-        {
-            name: 'Instagram',
-            icon: Instagram,
-            url: 'https://www.instagram.com/talhazulfakhri',
-            label: 'Instagram Profile'
         },
         {
             name: 'LinkedIn',
@@ -56,9 +44,7 @@ const Contact = () => {
                         lineHeight: '1.6'
                     }}
                 >
-                    If you're ready to sip into my world and connect on socials, click the logo below.
-                    Like a finely brewed espresso, I thrive on quick uptake and embrace the heat of
-                    high-pressure situations. Let's stir up some magic together!
+                    Always up for coffee, conversations, and building meaningful weak ties.
                 </motion.p>
 
                 <motion.div

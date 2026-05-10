@@ -32,7 +32,7 @@ const About = () => {
           >
             <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Who I am</h3>
             <p style={{ color: 'var(--color-text-secondary)', lineHeight: '1.6' }}>
-              Currently learning to tackling complex infrastructure and data challenges and translating them into simple, actionable narratives for stakeholders.
+              Mathematics graduate engineering data and automation workflows. Distilling complex problems into measurable, high impact solutions to drive strategic decision making.
             </p>
           </motion.div>
 
@@ -60,3 +60,4 @@ const About = () => {
 };
 
 export default About;
+
