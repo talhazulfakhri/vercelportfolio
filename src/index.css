@@ -102,3 +102,26 @@ button {
   object-fit: cover;
   margin-bottom: var(--spacing-md);
 }
+
+/* Responsive Nav */
+@media (max-width: 420px) {
+  .nav-container {
+    padding: 0.4rem 0.4rem !important;
+  }
+  .nav-logo {
+    padding-left: 0.2rem !important;
+    font-size: 1rem !important;
+  }
+  .nav-links {
+    gap: 0 !important;
+  }
+  .nav-links a {
+    padding: 0.4rem 0.5rem !important;
+    font-size: 0.8rem !important;
+  }
+  .theme-toggle {
+    margin-right: 0 !important;
+    width: 32px !important;
+    height: 32px !important;
+  }
+}

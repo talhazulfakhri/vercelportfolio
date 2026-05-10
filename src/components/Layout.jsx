@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
   return (
     <div className='layout'>
       <div style={{ display: 'flex', justifyContent: 'center', position: 'fixed', top: '1.5rem', width: '100%', zIndex: 100 }}>
-        <nav className='glass' style={{ 
+        <nav className='glass nav-container' style={{ 
           width: 'calc(100% - 2rem)', 
           maxWidth: '800px', 
           borderRadius: '50px',
@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
           border: '1px solid var(--color-border)'
         }}>
           {/* Left: Logo */}
-          <div style={{ 
+          <div className='nav-logo' style={{ 
             fontWeight: '600', 
             color: 'var(--color-text-secondary)', 
             letterSpacing: '0.5px',
@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
           }}>TZ</div>
           
           {/* Center: Links */}
-          <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
+          <div className='nav-links' style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
             <a href='#about' 
                style={{ 
                  padding: '0.5rem 1.2rem', 
@@ -86,6 +86,7 @@ const Layout = ({ children }) => {
           
           {/* Right: Theme Toggle */}
           <button 
+            className='theme-toggle'
             onClick={toggleTheme} 
             style={{ 
               display: 'flex', 
@@ -120,4 +121,3 @@ const Layout = ({ children }) => {
 };
 
 export default Layout;
-
