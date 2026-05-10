@@ -71,13 +71,14 @@ const Layout = ({ children }) => {
                style={{ 
                  padding: '0.5rem 1.2rem', 
                  borderRadius: '25px', 
-                 background: 'var(--color-surface)', 
-                 border: '1px solid var(--color-border)',
-                 color: 'var(--color-text)', 
-                 fontSize: '0.9rem',
+                 color: 'var(--color-text-secondary)', 
+                 fontSize: '0.9rem', 
                  fontWeight: '500',
+                 transition: 'all 0.2s ease',
                  textDecoration: 'none'
-               }}
+               }} 
+               onMouseOver={(e) => e.target.style.color = 'var(--color-text)'} 
+               onMouseOut={(e) => e.target.style.color = 'var(--color-text-secondary)'}
             >
               Connect
             </a>
@@ -119,3 +120,4 @@ const Layout = ({ children }) => {
 };
 
 export default Layout;
+
